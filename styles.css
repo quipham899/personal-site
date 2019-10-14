@@ -379,7 +379,7 @@ a:visited{
 }
 @keyframes fade{
   0%{color:white}
-  100%{color:black}
+  10%{color:black}
 }
 .p-h{
   display: flex;
