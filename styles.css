@@ -380,6 +380,7 @@ a:visited{
 @keyframes fade{
   0%{color:white}
   10%{color:black}
+  100%{color:black}
 }
 .p-h{
   display: flex;
