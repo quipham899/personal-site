@@ -508,9 +508,6 @@ a:visited{
   width: 40%;
   background-color: white;
   border: 1px solid black;
-  background-image: url(background-1.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
 }
 
 .link-list{
