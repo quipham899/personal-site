@@ -90,7 +90,8 @@ a:visited{
   background-position: center;
 }
 .twenty-2{
-  padding-left: 50px;
+  text-align: center;
+  padding-left: 5px;
   font-family: "Courier New", Courier, monospace;
   font-size: 40px;
 }
@@ -503,15 +504,207 @@ a:visited{
 
 .website-link{
   position: relative;
-  z-index: 2;
-  height: 300px;
-  width: 300px;
-  background-color: black;
+  height: 200px;
+  width: 40%;
+  background-color: white;
+  border: 1px solid black;
+  background-image: url(background-1.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
-.website-link img{
-  position: relative;
-  z-index: 3;
+.link-list{
+  position: absolute;
+  left: 10px;
+  top: 1500px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.link-list a{
+  font-family: "Courier New", Courier, monospace	;
+  font-size: 55px;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 35%;
+  right: 25%;
+}
+.history-body{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.website-link:hover {
+  animation-name: box-expand;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+@keyframes box-expand {
+  0%{box-shadow: 10px 10px;
+  width: 40%}
+  10%{box-shadow: 10px 10px;
+  width: 60%}
+  20%{box-shadow: 10px 10px;
+  width: 80%}
+  100%{box-shadow: 10px 10px;
+  width: 100%}
+}
+.code-snippet{
+  position: absolute;
+  left: 0px;
+  top: 300px;
   height: 300px;
-  width: 300px;
+  width: 500px;
+  background-image: url(background-1.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.code-snippet:hover{
+  overflow-y: scroll;
+  animation-name: expansion;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+@keyframes expansion{
+  0%{width: 25%;
+    height: 25%;
+  box-shadow: 10px 10px;}
+  100%{width: 45%;
+    height: 45%;
+  box-shadow: 10px 10px;}
+}
+/*This section applies to Social-Media*/
+.facebook{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 263px;
+  width: 469px;
+  background-color: #4267B2;
+}
+.facebook a{
+  margin-top: 10%;
+  font-size: 40px;
+}
+.social-media{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 70px;
+  top: 900px;
+}
+.facebook:hover{
+  font-size: 50px;
+  animation-name: expansion;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+.facebook:hover img{
+  right: 43%;
+}
+
+.facebook img{
+  position: absolute;
+  bottom: 0px;
+  right: 40%;
+  height: 100px;
+  width: 100px;
+}
+
+.discord{
+  position: relative;
+  left: 50%;
+  display: flex;
+  justify-content: center;
+  height: 263px;
+  width: 469px;
+  background-color: #5A74CC;
+}
+.discord a{
+  margin-bottom: 10%;
+  margin-top: 5%;
+  font-size: 50px;
+}
+.discord:hover{
+  font-size: 50px;
+  animation-name: expand;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+.discord:hover img{
+  right: 30%;
+  height: 200px;
+  width: 200px;
+}
+
+.discord img{
+  position: absolute;
+  bottom: 0px;
+  right: 40%;
+  height: 100px;
+  width: 100px;
+}
+
+@keyframes expand{
+  0%{width: 469px;
+  height: 263px;
+box-shadow: 10px 10px;}
+  100%{ width: 45%;
+  height: 500px;
+box-shadow: 10px 10px;}
+}
+
+.github{
+  position: relative;
+  top: 170px;
+  left: 5%;
+    display: flex;
+  justify-content: center;
+  height: 263px;
+  width: 469px;
+  background-color: black;
+}
+.github a{
+  margin-bottom: 10%;
+  margin-top: 5%;
+  font-size: 50px;
+}
+.github:hover{
+  font-size: 50px;
+  animation-name: elongate;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+.github:hover .github-box{
+  right: 47%;
+}
+.github img{
+  position: absolute;
+  bottom: 0px;
+  height: 100px;
+  width: 100px;
+}
+.github-box{
+  position: absolute;
+  bottom: 0px;
+  right: 40%;
+  display: flex;
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+@keyframes elongate {
+  0%{ width: 469px;
+  box-shadow: 10px 10px;}
+  100%{width: 80%;
+  box-shadow: 10px 10px;}
 }
