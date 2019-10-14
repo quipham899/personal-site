@@ -503,6 +503,7 @@ a:visited{
 }
 
 .website-link{
+  color: black;
   position: relative;
   height: 200px;
   width: 40%;
@@ -522,7 +523,7 @@ a:visited{
 .link-list a{
   font-family: "Courier New", Courier, monospace	;
   font-size: 55px;
-  color: white;
+  color: black;
   font-weight: bold;
   position: absolute;
   top: 35%;
