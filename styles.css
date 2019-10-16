@@ -30,7 +30,8 @@ a:visited{
   font-family: "Courier New", Courier, monospace;
   color: black;
 }
-/*.s1:hover{
+
+.s1:hover{
   background: black;
   animation-name: fade;
   animation-duration: 10s;
@@ -98,7 +99,8 @@ a:visited{
 .twenty-2{
   color: black;
 }
-/*.First:hover{
+
+.First:hover{
   border: 1px solid black;
   animation-name: fade2;
   animation-duration: 20s;
