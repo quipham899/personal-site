@@ -74,11 +74,12 @@ a:visited{
 }
 
 
-.h2 h1{
+h2{
   font-family: "Courier New", Courier, monospace;
   color: white;
   font-size: 75px;
 }
+
 .h2{
   display: flex;
   justify-content: center;
