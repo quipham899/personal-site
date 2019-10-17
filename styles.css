@@ -573,6 +573,7 @@ a:visited{
 }
 /*This section applies to Social-Media*/
 .facebook{
+  box-shadow: 10px 10px black;
   position: relative;
   display: flex;
   justify-content: center;
@@ -612,6 +613,7 @@ a:visited{
 }
 
 .discord{
+  box-shadow: 10px 10px black;
   position: relative;
   left: 50%;
   bottom: 50px;
@@ -657,6 +659,7 @@ box-shadow: 10px 10px black;}
 }
 
 .github{
+  box-shadow: 10px 10px black;
   position: relative;
   top: 170px;
   left: 0px;
