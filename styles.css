@@ -566,10 +566,10 @@ a:visited{
 @keyframes expansion{
   0%{width: 25%;
     height: 25%;
-  box-shadow: 10px 10px;}
+  box-shadow: 10px 10px black;}
   100%{width: 45%;
     height: 45%;
-  box-shadow: 10px 10px;}
+  box-shadow: 10px 10px black;}
 }
 /*This section applies to Social-Media*/
 .facebook{
