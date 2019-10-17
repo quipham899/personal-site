@@ -30,12 +30,7 @@ a:visited{
   font-family: "Courier New", Courier, monospace;
   color: black;
 }
-/*.s1:hover{
-  background: black;
-  animation-name: fade;
-  animation-duration: 10s;
-  animation-fill-mode: forwards;*/
-}
+
 .s1{
   height: 100
 }
@@ -655,10 +650,10 @@ a:visited{
 @keyframes expand{
   0%{width: 469px;
   height: 263px;
-box-shadow: 10px 10px;}
+box-shadow: 10px 10px black;}
   100%{ width: 45%;
   height: 500px;
-box-shadow: 10px 10px;}
+box-shadow: 10px 10px black;}
 }
 
 .github{
