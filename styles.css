@@ -74,10 +74,10 @@ a:visited{
 }
 
 
-.h2 h2{
+.h2 {
   font-family: "Courier New", Courier, monospace;
   color: white;
-  font-size: 75px;
+  font-size: 45px;
 }
 .h2{
   display: flex;
